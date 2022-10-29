@@ -4,6 +4,11 @@ body{
 }
 
 h1{
-	color:white
+	color:white;
+	text-align: center;
 }
-
+p1{
+	color: white;
+	font-family: verdana;
+	font-size: 25px;
+}
