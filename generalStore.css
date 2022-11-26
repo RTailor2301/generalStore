@@ -12,3 +12,36 @@ p1{
 	font-family: verdana;
 	font-size: 25px;
 }
+
+ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                overflow:hidden;
+            }
+
+            li {
+                  display: inline;
+                float:left;
+            }
+
+            li a {
+                  display: block;
+                  padding: 8px;
+                  background-color: lightgray;
+            }
+figcaption{
+  color: white;
+  font: fantasy;
+  padding: 3px;
+}
+
+.col{
+  float:left;
+  width: 15%;
+  padding: 3px;
+}
+
+.row::after{
+  display: table;
+}
