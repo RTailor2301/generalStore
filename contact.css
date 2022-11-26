@@ -1,0 +1,45 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+/* background */
+body {
+    font-family: Arial;
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+    overflow:hidden;
+}
+
+li {
+    display: inline;
+    float:left;
+}
+
+li a {
+    display: block;
+      padding: 8px;
+      background-color: lightgray;
+}
+
+/*text box sizes*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+/* background */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
