@@ -5,18 +5,34 @@
 		<link rel="stylesheet" href="generalStore.css">
 	</head>
 	<body>
-
+		<!-- navigation bar --> 
+		<!-- only home and contact pages will work -->
 		<ul>
 			<li><a href="filename.html">Home</a></li>
-			<li><a href="#games">Games</a></li>
-             		<li><a href="contact.html">Contact Us</a></li>
-              		<li><a href="#about">About</a></li>
-            		<li><a href="#locations">Locations</a></li>
+             	<li><a href="contact.html">Contact Us</a></li>
+              	<li><a href="#about">About</a></li>
+            	<li><a href="#locations">Locations</a></li>
         	</ul>
 
-
+		<button onclick="theFunction()"> Click Here !</button>
+		<script>
+			function theFunction(){
+				let name, person = prompt("Enter Name " , "John Doe");
+				if (person == null || person == ""){
+                			name = "No Name Entered!";
+					alert(name + "\nBut Hello!");
+            		} else{
+                			name = "Hello " +person+ "!";
+					alert(name);
+            		}
+            		document.getElementById("demo").innerHTML = name;
+			}
+		</script>
+		
+		<!-- title page -->
 		<h1>Welcome to RWC's General Store!</h1>
 
+		<!-- each category -->
 		<p1>Halloween Items</p1>
 			<p>
 <div class="row">
@@ -38,10 +54,7 @@
 <img src="clowncostume.png" alt="image is not available" width="180px" height="200px"> <figcaption>Clown Costume</figcaption> 
 </figure>
 </div>
-</div>
-
-			   
-			    
+</div>  
 			</p>
 		<p>&emsp;</p>
 
@@ -67,7 +80,4 @@
 		<p>&emsp;</p>
 	
 	</body>
-
-	
 </html>
-
