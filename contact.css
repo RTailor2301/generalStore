@@ -3,10 +3,11 @@ h1{
     text-align: center;
 }
 
-/* background */
-body {
-    font-family: Arial;
-    background-color: gray;
+/* background*/
+#color {
+  height:100%;
+  width:100%;
+  background-image: linear-gradient(to right, #37D5D6 , #36096D);
 }
 
 ul {
